@@ -1,6 +1,6 @@
 ## Nystagmus Optimisation ##
 
-This repositosy includes MATLAB code for the optimisation of occulomotor model to nystagmus waveforms. 
+This repositosy includes MATLAB code for the optimisation of occulomotor models to nystagmus waveforms. 
 
 This code was developed for the work presented in the publication:
 
