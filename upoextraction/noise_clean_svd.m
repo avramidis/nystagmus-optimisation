@@ -1,19 +1,4 @@
 function [tsout,sgvec]=noise_clean_svd(tsin,edim,projdim)
-%function [tsout,sgvec]=noise_clean_svd(tsin,edim,projdim)
-%Ozgur E. Akman                     12/06/13
-%Routine to implement the noise cleaning method of Schreiber et al, using the global (rather than local SVD).
-%
-%INPUTS: tsin -> input time series.
-%        edim -> chosen embedding dimension (should be sufficiently large).
-%        projdim -> the number of singular values after which to truncate the SVD expansion (OPTIONAL: The default value is taken as that
-%                   which captures 99.9% of the variance).
-%
-%OUTPUTS: tsout -> output time series. 
-%         sgvec -> singular values (OPTIONAL).
-%
-%ROUTINES CALLED: None.
-%
-
 %NOISE_CLEAN_SVD Routine to implement the noise cleaning method of 
 %                Schreiber et al, using the global (rather than local SVD)
 %
