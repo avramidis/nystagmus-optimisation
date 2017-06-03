@@ -8,6 +8,13 @@ Avramidis Eleftherios, and Ozgur E. Akman. ["Optimisation of an exemplar oculomo
 
 This codebase was developed in collaboration with [Dr. Ozgur E. Akman](http://emps.exeter.ac.uk/mathematics/staff/oea201) at the [University of Exeter, UK](http://www.exeter.ac.uk/). 
 
+### MATLAB Dependencies ###
+
+To run the code in this repositosy you will need MATLAB version 2017a or newer with the following repositories:
+Global Optimization Toolbox
+Signal Processing Toolbox
+Communications System Toolbox
+
 ### Folders description ###
 
 The upoextraction folder includes the code needed to extract a single nystagmus waveform for an experimental time series.
