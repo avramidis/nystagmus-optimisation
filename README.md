@@ -20,7 +20,14 @@ The integration of the oculomotor model is done using ODECL library that uses Op
 
 ### How to run the code ###
 
-To run the optimisation of the oculomotor model two MATLAB instances are needed.
+The optimisation pipeline first include the execution of the upoextraction/test_upoextraction.m to extract a nystagmus waveform from an experimental recording.
+The extracted waveform can be saved in a mat file named target1.mat and copied to the client folder (example of a target is included in the client folder). 
+
+Then, to run the optimisation of the oculomotor model two MATLAB instances are needed.
 Using the first MATLAB instance we execute the gpuserver/gpuservercaller.m script.
 Using the second MATLAB instance we execute the client/workitemsmanagercaller.m script.
 For better performace the gpuserver folder must be in a RAMDISK or at least an SSD.
+
+### Future work ###
+
+Future work on this repositosy includes the addition of code that presents the optimisation results to figures.
