@@ -8,6 +8,16 @@ Avramidis Eleftherios, and Ozgur E. Akman. ["Optimisation of an exemplar oculomo
 
 This codebase was developed in collaboration with [Dr. Ozgur E. Akman](http://emps.exeter.ac.uk/mathematics/staff/oea201) at the [University of Exeter, UK](http://www.exeter.ac.uk/). 
 
+### Folders description ###
+
+The upoextraction folder includes the code needed to extract a single nystagmus waveform for an experimental time series.
+This waveform can be used to optimise an oculomotor model.
+
+The gpuserver and client folders include the code needed to optimise an occulomotor model. The optimisation is done using the NSGA-II.
+The code in these two folder allows the parallel run of multiple NSGA-II instances. This way statistics of the found solutions can be aquired if one unique waveform target is used or 
+optimise the model to different waveform targets.
+The integration of the oculomotor model is done using ODECL library that uses OpenCL. This allows the use of a GPU to accelerate the integration of the ocumolotor model for multiple parameter sets.
+
 ### How to run the code ###
 
 To run the optimisation of the oculomotor model two MATLAB instances are needed.
