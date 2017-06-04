@@ -10,9 +10,12 @@ This codebase was developed in collaboration with [Dr. Ozgur E. Akman](http://em
 
 ### MATLAB Dependencies ###
 
-To run the code in this repositosy you will need MATLAB version 2017a or newer with the following repositories:
+To run the code in this repositosy you will need MATLAB version 2017a or newer with the following toolboxes:
+
 Global Optimization Toolbox
+
 Signal Processing Toolbox
+
 Communications System Toolbox
 
 ### Folders description ###
