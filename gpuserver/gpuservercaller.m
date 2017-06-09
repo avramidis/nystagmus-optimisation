@@ -1,3 +1,19 @@
+% Example script for calling the gpuservercaller function
+%
+% Other m-files required: gpuservercaller.m
+% Subfunctions: none
+% MAT-files required: none
+%
+% See also: E. Avramidis & O.E. Akman. Optimisation of an exemplar oculomotor model
+% using multi-objective genetic algorithms executed on a GPU-CPU combination.
+% BMC Syst. Biol., 11: 40 (2017)
+%
+% @author: Eleftherios Avramidis $
+% @email: el.avramidis@gmail.com $
+% @date: 09/06/2017 $
+% @version: 1.0 $
+% @copyright: MIT License
+
 close all
 clear variables
 clc
