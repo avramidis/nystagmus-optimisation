@@ -5,17 +5,17 @@ function main()
 %   saccadic model. Finds the parameters values that cause the model to 
 %   generate behaviour as close as posible to the target data.
 %
-% Syntax:  main( client_n )
+% Syntax:  main()
 %
 % Inputs:
-%    client_n - Integer designating the number of the optimisation
+%    none
 %
 % Outputs: 
 %    none
 %
 % Example:
-%    main( 1, 'D:/GPU_SERVER/GPU_A' )
-%    This example a client with ID 1 and server location 'D:/GPU_SERVER/GPU_A'.
+%    main()
+%    This example starts a MOGA client.
 %
 % Other m-files required: none
 % Subfunctions: none
