@@ -1,4 +1,4 @@
-function upo = upoextraction( ts, vel_thres, dt )
+function [t, upo] = upoextraction( ts, vel_thres, dt )
 %UPOEXTRACTION Extracts an unstable periodic orbit from a nystagmus
 %timeseries.
 %
@@ -11,6 +11,7 @@ function upo = upoextraction( ts, vel_thres, dt )
 %
 % Outputs:
 %    upo        - Unstable periodic orbit
+%    t          - Time label for each point in upo
 %
 % Example:
 %    upo  = upoextraction( ts, 70, 0.0004 )
@@ -204,4 +205,5 @@ pos(2) = pos(2)-pos(2)/2;
 pos(4) = pos(4)+pos(4)/2;
 set(gcf, 'Position', pos);
 
+t=t-min(t);
 end
