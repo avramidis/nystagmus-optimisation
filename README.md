@@ -1,5 +1,7 @@
 ## Nystagmus Optimisation ##
 
+[![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/avramidis/nystagmus-optimisation/blob/master/LICENSE)
+
 This repositosy includes MATLAB code for the optimisation of occulomotor models to nystagmus waveforms. 
 
 This code was developed for the work presented in the publication:
